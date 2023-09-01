@@ -1,0 +1,70 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-top: 4rem;
+    transition:all 300ms ease;
+}
+
+.logo{
+    height: 5rem;
+    display: flex;
+    font-weight: bold;
+    font-size:22px;
+    gap:1rem;
+    align-items: center;
+    justify-content: center;
+    height: 4%;
+}
+
+.logo>img{
+    width: 3rem;
+    height: 3rem;
+}
+
+.logo>span>span{
+    color: var(--pink);
+}
+
+/* menu */
+.menu{
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+}
+
+.menuItem{
+    display: flex;
+    align-items: center;
+    gap:1rem;
+    height: 2.5rem;
+    margin-left: 2rem;
+    position: relative;
+    transition: all 300ms ease;
+    font-size: 14px;
+    border-radius:0.7rem;
+}
+
+.menuItem:hover{
+    cursor:pointer;
+}
+
+.active{
+    background: var(--activeItem);
+    margin-left: 0;
+}
+
+.active::before{
+    content: '';
+    width: 8px;
+    height: 100%;
+    background-color: var(--pink);
+    margin-right: calc(1rem - 8px);
+}
+
+.menu .menuItem:last-child{
+    position: absolute;
+    bottom:2.3rem;
+    width:100%;
+}
