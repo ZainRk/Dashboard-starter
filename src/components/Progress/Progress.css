@@ -1,0 +1,39 @@
+.progress-containers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.progress-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px; /* Adjust the width of the card */
+  height: 130px; /* Adjust the height of the card */
+  background: linear-gradient(to right, #e4a4e4, #b875e8); /* Gradient color */
+  border-radius: 8px;
+  padding: 15px; /* Adjust the padding inside the card */
+  font-family: 'Inter', sans-serif;
+  margin-bottom: 20px;
+}
+
+/* Styles for the Circular Progressbar */
+.react-circular-progressbar {
+  width: 80px; /* Adjust the width of the circular progress bar */
+  margin-bottom: 10px; /* Add space below the progress bar */
+}
+
+.react-circular-progressbar-text {
+  font-size: 16px; /* Adjust the font size of the percentage text */
+  fill: #fff; /* Text color */
+}
+
+/* Optional: Add animation to the progress bar */
+.react-circular-progressbar-path {
+  stroke: #ffffff; /* Progress bar color */
+  transition: stroke-dashoffset 0.5s ease 0s;
+}
+.heading{
+  color: whitesmoke;
+}

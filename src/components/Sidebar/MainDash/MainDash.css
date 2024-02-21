@@ -1,0 +1,24 @@
+/* .MainDash{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-bottom: 14rem;
+} */
+
+/* MainDash.css */
+.MainDash {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-bottom: 14rem;
+   
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .MainDash {
+      margin-bottom: 8rem; /* Chhote screens ke liye margin ko adjust karein agar zarurat ho */
+      flex-direction: column; /* Column-reverse ka istemal karke RightSide ko neeche le aayein */
+    }
+  }
+  
