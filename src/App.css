@@ -10,3 +10,21 @@
   --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
   --activeItem: #f799a354;
 }
+
+.App{
+ background: #e0c4ed;
+  font-family: 'Inter', sans-serif;
+  height:100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.AppGlass{
+  display: grid;
+  height: 97%;
+  width:98%;
+  border-radius: 2rem;
+  background-color: whitesmoke;
+  overflow: hidden;
+  grid-template-columns: 11rem auto 20rem;
+}

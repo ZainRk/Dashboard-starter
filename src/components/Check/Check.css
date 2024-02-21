@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.app {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 60px;
+  background: linear-gradient(to bottom, #663399, #8A2BE2); /* Gradient Purple */
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+  transition: width 0.5s;
+
+  /* height:70%; */
+}
+
+.sidebar.open {
+  width: 600px; 
+  background: linear-gradient(to bottom, #663399, #8A2BE2);
+}
+
+.toggle-button {
+  cursor: pointer;
+  padding: 10px;
+  background-color: #d348e6;
+  text-align: center;
+}
+
+.tabs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.tab {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.tab:hover {
+  background-color: #555;
+}
+
+.tab span {
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+  background-color: whitesmoke;
+  transition: margin-left 0.5s;
+}
+
+.content.open {
+  margin-left: 25%; 
+}

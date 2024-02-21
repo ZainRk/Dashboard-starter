@@ -1,0 +1,19 @@
+.Table {
+    width: 100%;
+    overflow-x: auto; /* Enable horizontal scrolling for smaller screens */
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 600px) {
+    .Table {
+      overflow-x: auto; /* Enable horizontal scrolling for very small screens */
+    }
+    
+    /* Style adjustments for smaller screens */
+    .MuiTableCell-root {
+      font-size: 14px; /* Adjust font size for cells on smaller screens */
+    }
+    
+    /* You may need additional styles based on your specific requirements */
+  }
+  

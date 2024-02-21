@@ -1,0 +1,22 @@
+.Cards {
+    display: flex;
+    gap: 10px;
+    /* max-height: 30%; */
+    align-items: stretch; 
+    /* height: 100%; */
+  }
+  
+  .parentContainer {
+    width: 100%;
+  }
+   
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .Cards {
+      flex-direction: column;
+      align-items: flex-start; 
+      /* height: auto; */
+    }
+  }
+
+ 
